@@ -161,7 +161,7 @@ flowchart LR
     IV3 --> INTV
     IV4 --> INTV
 
-    MODV -. modereert .-> INTV
+    MODV --> INTV
 
     INTV --> MV
     MV --> DV1
