@@ -1,0 +1,222 @@
+---
+title: "Conceptual model"
+format: html
+editor: visual
+jupyter: python3
+---
+
+------------------------------------------------------------------------
+
+**Onderzoeksvraag:** *Hoe kan bedrijf X ervoor zorgen dat de architectuur en integratie van hoofdprocessen binnen category management geoptimaliseerd worden, zodat effectiviteit en efficiëntie van werk verbeterd worden?*
+
+### Uitgewerkt Conceptueel Model
+
+Het conceptueel model wordt verder uitgewerkt met behulp van het **Ishikawa-model** (visgraatdiagram), waarbij mogelijke oorzaken worden geïdentificeerd die bijdragen aan het te onderzoeken effect.
+
+#### Visueel Conceptueel Model (Ishikawa-diagram)
+
+```{mermaid}
+graph TD
+    %% Definieer het hoofdeffect aan de rechterkant
+    Effect[Optimalisatie van architectuur en integratie]
+
+    %% Bovenste oorzaken
+    A1[Mensen] --> Effect
+    A2[Methoden] --> Effect
+    A3[Technologie] --> Effect
+
+    %% Onderste oorzaken
+    B1[Middelen] --> Effect
+    B2[Metingen] --> Effect
+    B3[Omgeving en Organisatiecultuur] --> Effect
+```
+
+**Toelichting op de hoofdoorzaken en suboorzaken:**
+
+1.  **Mensen (Medewerkers):**
+    -   Medewerkersvaardigheden en -kennis
+    -   Medewerkersbetrokkenheid en -motivatie
+    -   Training en ontwikkeling
+2.  **Methoden (Processen):**
+    -   Processontwerp en standaardisatie
+    -   Werkprocedures en richtlijnen
+    -   Procesverbeteringstechnieken (bijv. Lean, Six Sigma)
+3.  **Machines (Technologie):**
+    -   IT-systemen en software
+    -   Automatisering en digitalisering
+    -   Integratie van technologieën
+4.  **Materialen (Middelen):**
+    -   Kwaliteit van gegevens en informatie
+    -   Beschikbaarheid van resources
+    -   Toegang tot benodigdheden
+5.  **Metingen (Prestatie-indicatoren):**
+    -   KPI's en prestatiemetingen
+    -   Feedbackmechanismen
+    -   Monitoringssystemen
+6.  **Omgeving (Organisatiecultuur):**
+    -   Leiderschap en managementstijl
+    -   Verandermanagement
+    -   Externe factoren (markttrends, regelgeving)
+
+------------------------------------------------------------------------
+
+### Variabelen Tabel
+
+| **Variabele** | **Type Variabele** | **Conceptuele Definitie** | **Operationele Definitie** |
+|---------------|---------------|---------------------------|----------------|
+| **Medewerkersvaardigheden en -kennis** | Onafhankelijke variabele | Het niveau van expertise en competenties van medewerkers binnen category management | Aantal gevolgde trainingen, certificeringen, ervaringsjaren |
+| **Processontwerp en standaardisatie** | Onafhankelijke variabele | De mate waarin processen zijn ontworpen en gestandaardiseerd voor optimale prestaties | Aanwezigheid van gedocumenteerde processen, nalevingspercentages |
+| **IT-systemen en software** | Onafhankelijke variabele | De technologieën die worden gebruikt om processen te ondersteunen en te integreren | Implementatiegraad van systemen, systeemfunctionaliteiten |
+| **Kwaliteit van gegevens en informatie** | Onafhankelijke variabele | De nauwkeurigheid en bruikbaarheid van gegevens die in processen worden gebruikt | Data-integriteitsmetingen, foutenmarges |
+| **Prestatie-indicatoren en KPI's** | Mediërende variabele | De metingen die worden gebruikt om de prestaties van processen te evalueren | Aantal en relevantie van KPI's, frequentie van rapportage |
+| **Organisatiecultuur** | Modererende variabele | De gedeelde waarden en normen binnen bedrijf X die invloed hebben op procesoptimalisatie | Enquêtes over medewerkersbetrokkenheid, cultuurbeoordelingen |
+| **Optimalisatie van architectuur en integratie** | Tussenliggende variabele | Het verbeteren van de structuur en samenhang van hoofdprocessen binnen category management | Implementatie van optimalisatieprojecten, procesintegratieniveau |
+| **Effectiviteit van het werk** | Afhankelijke variabele | De mate waarin beoogde resultaten en doelen worden bereikt binnen de werkzaamheden | Doelrealisatiepercentages, kwaliteitsbeoordelingen |
+| **Efficiëntie van het werk** | Afhankelijke variabele | De mate waarin middelen optimaal worden ingezet om werkzaamheden uit te voeren | Tijdsbesparing, kostenreductie, productiviteitscijfers |
+
+------------------------------------------------------------------------
+
+### Subvragentabel
+
+| **Type Subvraag** | **Subvraag** | **Betrokken Variabelen** |
+|---------------|----------------------------------------|-----------------|
+| **Theoretisch** | Hoe beïnvloeden **medewerkersvaardigheden en -kennis** de optimalisatie van procesarchitectuur en -integratie? | Medewerkersvaardigheden en -kennis, Optimalisatie van architectuur en integratie |
+|  | Welke impact heeft **processontwerp en standaardisatie** op de **effectiviteit en efficiëntie van het werk**? | Processontwerp en standaardisatie, Effectiviteit en efficiëntie van het werk |
+|  | In welke mate modereert de **organisatiecultuur** het effect van **IT-systemen en software** op procesoptimalisatie? | Organisatiecultuur, IT-systemen en software, Optimalisatie van architectuur en integratie |
+| **Empirisch** | Wat is de relatie tussen de **kwaliteit van gegevens en informatie** en de **effectiviteit van het werk** na procesoptimalisatie? | Kwaliteit van gegevens en informatie, Effectiviteit van het werk |
+|  | Hoe beïnvloeden **prestatie-indicatoren en KPI's** de **efficiëntie van het werk** binnen geoptimaliseerde processen? | Prestatie-indicatoren en KPI's, Efficiëntie van het werk |
+|  | Is er een significant effect van **medewerkersvaardigheden** op de implementatiegraad van procesoptimalisaties? | Medewerkersvaardigheden en -kennis, Optimalisatie van architectuur en integratie |
+| **Analytisch** | Welke strategieën kan bedrijf X toepassen om de **medewerkersvaardigheden en -kennis** te verbeteren voor succesvolle procesoptimalisatie? | Medewerkersvaardigheden en -kennis, Optimalisatie van architectuur en integratie |
+|  | Hoe kan de **organisatiecultuur** worden aangepast om de implementatie van nieuwe **IT-systemen en software** te faciliteren? | Organisatiecultuur, IT-systemen en software |
+|  | Wat zijn de belangrijkste factoren uit het **Ishikawa-model** die bijdragen aan procesoptimalisatie, en hoe kunnen deze effectief worden aangepakt? | Alle variabelen |
+
+------------------------------------------------------------------------
+
+**Uitleg:**
+
+-   **Uitgewerkt Conceptueel Model:** Door het gebruik van het Ishikawa-model worden de verschillende oorzaken (variabelen) die bijdragen aan het effect (optimalisatie van architectuur en integratie) in kaart gebracht. Dit model helpt om systematisch de factoren te identificeren die van invloed zijn op de onderzoeksvraag.
+
+-   **Variabelen Tabel:** De variabelen zijn geselecteerd op basis van de zes categorieën van het Ishikawa-model: Mensen, Methoden, Machines, Materialen, Metingen en Omgeving. Ze zijn ingedeeld in onafhankelijke, afhankelijke, mediërende en modererende variabelen, met bijbehorende conceptuele en operationele definities.
+
+-   **Subvragentabel:** De subvragen zijn geformuleerd om de relaties tussen de variabelen te onderzoeken. Theoretische subvragen richten zich op het begrijpen van de onderliggende mechanismen, empirische subvragen op het verzamelen en analyseren van data, en analytische subvragen op de interpretatie en toepassing van de bevindingen.
+
+Deze benadering biedt een uitgebreid kader voor bedrijf X om de factoren te identificeren die essentieel zijn voor het optimaliseren van hun processen en om gerichte acties te ondernemen om de effectiviteit en efficiëntie van het werk te verbeteren.
+
+------------------------------------------------------------------------
+
+*Opmerking:* Een visuele weergave van het conceptuele model kan worden gemaakt met behulp van een Ishikawa-diagram, waarbij het effect (optimalisatie van architectuur en integratie) aan het hoofd staat en de zes hoofdoorzaken (Mensen, Methoden, Machines, Materialen, Metingen, Omgeving) als zijtakken worden weergegeven. Onder elke hoofdoorzaak kunnen specifieke factoren worden genoteerd die in het onderzoek worden meegenomen.
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+**Mermaid Stroomdiagram van het Conceptueel Model**
+
+Hieronder vindt u het stroomdiagram dat de variabelen en hun onderlinge relaties visualiseert. De pijlen geven de richting van de invloed aan tussen de variabelen. Verschillende kleuren zijn gebruikt om de typen variabelen te onderscheiden:
+
+-   **Blauw** ([#ADD8E6]{style="color: #ADD8E6"}): Onafhankelijke variabelen (IV)
+-   **Paars** ([#DA70D6]{style="color: #DA70D6"}): Modererende variabele (MODV)
+-   **Groen** ([#90EE90]{style="color: #90EE90"}): Tussenliggende variabele (INTV)
+-   **Oranje** ([#FFA500]{style="color: #FFA500"}): Mediërende variabele (MV)
+-   **Rood** ([#FF6347]{style="color: #FF6347"}): Afhankelijke variabelen (DV)
+
+```{mermaid}
+flowchart LR
+    %% Definieer de nodes
+    IV1[Medewerkersvaardigheden en -kennis]
+    IV2[Processontwerp en standaardisatie]
+    IV3[IT-systemen en software]
+    IV4[Kwaliteit van gegevens en informatie]
+    MODV[Organisatiecultuur]
+    INTV[Optimalisatie van architectuur en integratie]
+    MV[Prestatie-indicatoren en KPI's]
+    DV1[Effectiviteit van het werk]
+    DV2[Efficiëntie van het werk]
+
+    %% Definieer de relaties
+    IV1 --> INTV
+    IV2 --> INTV
+    IV3 --> INTV
+    IV4 --> INTV
+
+    MODV -. modereert .-> INTV
+
+    INTV --> MV
+    MV --> DV1
+    MV --> DV2
+
+    INTV --> DV1
+    INTV --> DV2
+
+    %% Stijldefinities voor de nodes
+    style IV1 fill:#ADD8E6,stroke:#000,color:#000
+    style IV2 fill:#ADD8E6,stroke:#000,color:#000
+    style IV3 fill:#ADD8E6,stroke:#000,color:#000
+    style IV4 fill:#ADD8E6,stroke:#000,color:#000
+    style INTV fill:#90EE90,stroke:#000,color:#000
+    style MV fill:#FFA500,stroke:#000,color:#000
+    style MODV fill:#DA70D6,stroke:#000,color:#000
+    style DV1 fill:#FF6347,stroke:#000,color:#000
+    style DV2 fill:#FF6347,stroke:#000,color:#000
+
+    %% Stijldefinities voor de lijnen
+    linkStyle 5 stroke-dasharray: 5 5,stroke:#DA70D6
+
+    %% Voeg labels toe aan de lijnen
+    IV1 -- Beïnvloedt --> INTV
+    IV2 -- Beïnvloedt --> INTV
+    IV3 -- Beïnvloedt --> INTV
+    IV4 -- Beïnvloedt --> INTV
+    MODV -. Modereert .-> INTV
+    INTV -- Beïnvloedt --> MV
+    MV -- Beïnvloedt --> DV1
+    MV -- Beïnvloedt --> DV2
+    INTV -- Beïnvloedt --> DV1
+    INTV -- Beïnvloedt --> DV2
+```
+
+**Uitleg:**
+
+-   **Onafhankelijke variabelen (Blauw):**
+
+    -   **Medewerkersvaardigheden en -kennis**
+    -   **Processontwerp en standaardisatie**
+    -   **IT-systemen en software**
+    -   **Kwaliteit van gegevens en informatie**
+
+    Deze variabelen hebben een directe invloed op de **Optimalisatie van architectuur en integratie**.
+
+-   **Modererende variabele (Paars):**
+
+    -   **Organisatiecultuur**
+
+    Deze variabele modereert (versterkt of verzwakt) het effect van de onafhankelijke variabelen op de optimalisatie. Dit is aangegeven met een gestippelde pijl.
+
+-   **Tussenliggende variabele (Groen):**
+
+    -   **Optimalisatie van architectuur en integratie**
+
+    Deze variabele wordt beïnvloed door de onafhankelijke variabelen en heeft op zijn beurt invloed op de afhankelijke variabelen, zowel direct als via de mediërende variabele.
+
+-   **Mediërende variabele (Oranje):**
+
+    -   **Prestatie-indicatoren en KPI's**
+
+    Deze variabele medieert de relatie tussen de optimalisatie en de werkprestaties (afhankelijke variabelen).
+
+-   **Afhankelijke variabelen (Rood):**
+
+    -   **Effectiviteit van het werk**
+    -   **Efficiëntie van het werk**
+
+    Dit zijn de uitkomstvariabelen die verbeterd worden door de optimalisatie van processen.
+
+**Toelichting op het diagram:**
+
+-   De pijlen geven de richting van de invloed aan tussen de variabelen.
+-   De gestippelde pijl van **Organisatiecultuur** naar **Optimalisatie van architectuur en integratie** geeft het modererende effect weer.
+-   De kleuren helpen de verschillende typen variabelen te identificeren binnen het model.
+
+------------------------------------------------------------------------
+
+Met dit stroomdiagram wordt duidelijk hoe de verschillende elementen uit het Ishikawa-model bijdragen aan het optimaliseren van de architectuur en integratie van processen binnen bedrijf X, en hoe dit leidt tot verbeterde effectiviteit en efficiëntie van het werk.
