@@ -155,21 +155,6 @@ flowchart LR
     DV1[Effectiviteit van het werk]
     DV2[Efficiëntie van het werk]
 
-    %% Definieer de relaties
-    IV1 --> INTV
-    IV2 --> INTV
-    IV3 --> INTV
-    IV4 --> INTV
-
-    MODV --> INTV
-
-    INTV --> MV
-    MV --> DV1
-    MV --> DV2
-
-    INTV --> DV1
-    INTV --> DV2
-
     %% Stijldefinities voor de nodes
     style IV1 fill:#ADD8E6,stroke:#000,color:#000
     style IV2 fill:#ADD8E6,stroke:#000,color:#000
