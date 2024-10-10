@@ -181,9 +181,6 @@ flowchart LR
     style DV1 fill:#FF6347,stroke:#000,color:#000
     style DV2 fill:#FF6347,stroke:#000,color:#000
 
-    %% Stijldefinities voor de lijnen
-    linkStyle 5 stroke-dasharray: 5 5,stroke:#DA70D6
-
     %% Voeg labels toe aan de lijnen
     IV1 -- Beïnvloedt --> INTV
     IV2 -- Beïnvloedt --> INTV
